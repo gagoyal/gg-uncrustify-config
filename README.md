@@ -8,7 +8,7 @@ How to install and start using Uncrustify
 =========================================
 
 1. Install brew -->
-	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)”
+	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 2. Install brew completion -->
 	brew install bash-completion git
