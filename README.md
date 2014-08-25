@@ -30,9 +30,11 @@ How to install and start using Uncrustify
 Batch run uncrustify on all source files
 ========================================
 
+Command in point 2 is for ObjC headers and implemetations as I provided OC option.
+
 1. Open Terminal and goto source directory. Rrun following command. Here dot is for current directory. -->
 	find . -name '*.m' > list.txt
 
 2. Then run following command, assuming that uncrustify.cfg is placed in your home directory -->
-	uncrustify -c ~/uncrustify.cfg --replace -F list.txt
+	uncrustify -c ~/uncrustify.cfg --no-backup -l OC -F list.txt
 
