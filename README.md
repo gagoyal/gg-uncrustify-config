@@ -8,7 +8,7 @@ How to install and start using Uncrustify
 =========================================
 
 1. Install brew -->
-	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 2. Install brew completion -->
 	brew install bash-completion git
@@ -19,7 +19,7 @@ How to install and start using Uncrustify
 4. Download Xcode plugin from -->
 	https://github.com/benoitsan/BBUncrustifyPlugin-Xcode
 
-5. Place downloaded file in ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
+5. Place downloaded file in ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins. Create this directory path if required.
 
 6. Copy uncrustify-GG.cfg to your home directory and rename it to uncrustify.cfg
 
